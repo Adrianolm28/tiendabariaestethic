@@ -1,0 +1,100 @@
+CRITICAL - 2025-05-29 13:12:11 --> Undefined array key 1
+in APPPATH/Views/admin/configuraciontienda.php on line 150.
+ 1 APPPATH/Views/admin/configuraciontienda.php(150): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/tegnex/public_html/app/Views/admin/configuraciontienda.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Configuraciontienda.php(25): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Configuraciontienda->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-29 14:53:07 --> Undefined array key 1
+in APPPATH/Views/admin/configuraciontienda.php on line 150.
+ 1 APPPATH/Views/admin/configuraciontienda.php(150): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/tegnex/public_html/app/Views/admin/configuraciontienda.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Configuraciontienda.php(25): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Configuraciontienda->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-29 15:13:08 --> Undefined array key 1
+in APPPATH/Views/admin/configuraciontienda.php on line 150.
+ 1 APPPATH/Views/admin/configuraciontienda.php(150): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/tegnex/public_html/app/Views/admin/configuraciontienda.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Configuraciontienda.php(25): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Configuraciontienda->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-29 15:22:07 --> Undefined array key 1
+in APPPATH/Views/admin/configuraciontienda.php on line 150.
+ 1 APPPATH/Views/admin/configuraciontienda.php(150): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/tegnex/public_html/app/Views/admin/configuraciontienda.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Configuraciontienda.php(25): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Configuraciontienda->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-29 15:22:54 --> Undefined array key 1
+in APPPATH/Views/admin/configuraciontienda.php on line 150.
+ 1 APPPATH/Views/admin/configuraciontienda.php(150): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/tegnex/public_html/app/Views/admin/configuraciontienda.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Configuraciontienda.php(25): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Configuraciontienda->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-29 17:47:55 --> Undefined variable $soporte
+in APPPATH/Views/admin/informacion.php on line 105.
+ 1 APPPATH/Views/admin/informacion.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/tegnex/public_html/app/Views/admin/informacion.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Informacion.php(18): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Informacion->informacion()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-29 17:48:03 --> Undefined variable $soporte
+in APPPATH/Views/admin/informacion.php on line 105.
+ 1 APPPATH/Views/admin/informacion.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/tegnex/public_html/app/Views/admin/informacion.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Informacion.php(18): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Informacion->informacion()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-29 17:48:06 --> Undefined variable $soporte
+in APPPATH/Views/admin/informacion.php on line 105.
+ 1 APPPATH/Views/admin/informacion.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/tegnex/public_html/app/Views/admin/informacion.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Informacion.php(18): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Informacion->informacion()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-29 17:48:24 --> Undefined variable $soporte
+in APPPATH/Views/admin/informacion.php on line 105.
+ 1 APPPATH/Views/admin/informacion.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/tegnex/public_html/app/Views/admin/informacion.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Informacion.php(18): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Informacion->informacion()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-05-29 20:32:38 --> Valores faltantes para la compra ID: 34. Provincia: , Distrito: 

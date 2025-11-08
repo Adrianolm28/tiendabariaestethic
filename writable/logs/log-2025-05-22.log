@@ -1,0 +1,22 @@
+CRITICAL - 2025-05-22 22:00:34 --> Undefined variable $soporte
+in APPPATH/Views/admin/informacion.php on line 105.
+ 1 APPPATH/Views/admin/informacion.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/tegnex/public_html/app/Views/admin/informacion.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Informacion.php(18): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Informacion->informacion()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-22 22:00:38 --> Undefined variable $soporte
+in APPPATH/Views/admin/informacion.php on line 105.
+ 1 APPPATH/Views/admin/informacion.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/tegnex/public_html/app/Views/admin/informacion.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Informacion.php(18): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Informacion->informacion()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

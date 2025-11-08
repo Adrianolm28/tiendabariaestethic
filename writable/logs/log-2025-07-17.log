@@ -1,0 +1,130 @@
+CRITICAL - 2025-07-17 17:24:23 --> Undefined array key "nombre"
+in APPPATH/Controllers/Productos.php on line 502.
+ 1 APPPATH/Controllers/Productos.php(502): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', '/home/tegnex/public_html/app/Controllers/Productos.php', 502)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->getProductosAdmin()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 17:26:10 --> Undefined array key "nombre"
+in APPPATH/Controllers/Productos.php on line 502.
+ 1 APPPATH/Controllers/Productos.php(502): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', '/home/tegnex/public_html/app/Controllers/Productos.php', 502)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->getProductosAdmin()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 17:26:16 --> Undefined array key "nombre"
+in APPPATH/Controllers/Productos.php on line 502.
+ 1 APPPATH/Controllers/Productos.php(502): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', '/home/tegnex/public_html/app/Controllers/Productos.php', 502)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->getProductosAdmin()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 17:27:28 --> Undefined array key "nombre"
+in APPPATH/Controllers/Productos.php on line 502.
+ 1 APPPATH/Controllers/Productos.php(502): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', '/home/tegnex/public_html/app/Controllers/Productos.php', 502)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->getProductosAdmin()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 17:27:34 --> Undefined array key "nombre"
+in APPPATH/Controllers/Productos.php on line 502.
+ 1 APPPATH/Controllers/Productos.php(502): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', '/home/tegnex/public_html/app/Controllers/Productos.php', 502)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->getProductosAdmin()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 17:27:40 --> Undefined array key "nombre"
+in APPPATH/Controllers/Productos.php on line 502.
+ 1 APPPATH/Controllers/Productos.php(502): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', '/home/tegnex/public_html/app/Controllers/Productos.php', 502)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->getProductosAdmin()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 17:28:58 --> Undefined array key "nombre"
+in APPPATH/Controllers/Productos.php on line 502.
+ 1 APPPATH/Controllers/Productos.php(502): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', '/home/tegnex/public_html/app/Controllers/Productos.php', 502)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->getProductosAdmin()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 17:29:36 --> Undefined array key "nombre"
+in APPPATH/Controllers/Productos.php on line 502.
+ 1 APPPATH/Controllers/Productos.php(502): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', '/home/tegnex/public_html/app/Controllers/Productos.php', 502)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->getProductosAdmin()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 17:30:12 --> Undefined array key "nombre"
+in APPPATH/Controllers/Productos.php on line 502.
+ 1 APPPATH/Controllers/Productos.php(502): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', '/home/tegnex/public_html/app/Controllers/Productos.php', 502)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->getProductosAdmin()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 17:31:05 --> Undefined array key "nombre"
+in APPPATH/Controllers/Productos.php on line 502.
+ 1 APPPATH/Controllers/Productos.php(502): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', '/home/tegnex/public_html/app/Controllers/Productos.php', 502)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->getProductosAdmin()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 17:31:25 --> Undefined array key "nombre"
+in APPPATH/Controllers/Productos.php on line 502.
+ 1 APPPATH/Controllers/Productos.php(502): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', '/home/tegnex/public_html/app/Controllers/Productos.php', 502)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->getProductosAdmin()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 17:31:50 --> Undefined array key "nombre"
+in APPPATH/Controllers/Productos.php on line 502.
+ 1 APPPATH/Controllers/Productos.php(502): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', '/home/tegnex/public_html/app/Controllers/Productos.php', 502)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->getProductosAdmin()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 17:32:14 --> Undefined array key "nombre"
+in APPPATH/Controllers/Productos.php on line 502.
+ 1 APPPATH/Controllers/Productos.php(502): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', '/home/tegnex/public_html/app/Controllers/Productos.php', 502)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->getProductosAdmin()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 17:32:31 --> Undefined array key "nombre"
+in APPPATH/Controllers/Productos.php on line 511.
+ 1 APPPATH/Controllers/Productos.php(511): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', '/home/tegnex/public_html/app/Controllers/Productos.php', 511)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->getProductosAdmin()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 17:34:35 --> Undefined array key "nombre"
+in APPPATH/Controllers/Productos.php on line 502.
+ 1 APPPATH/Controllers/Productos.php(502): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', '/home/tegnex/public_html/app/Controllers/Productos.php', 502)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->getProductosAdmin()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 17:43:58 --> Undefined array key "nombre"
+in APPPATH/Controllers/Productos.php on line 502.
+ 1 APPPATH/Controllers/Productos.php(502): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', '/home/tegnex/public_html/app/Controllers/Productos.php', 502)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->getProductosAdmin()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 17:45:06 --> Undefined array key "nombre"
+in APPPATH/Controllers/Productos.php on line 502.
+ 1 APPPATH/Controllers/Productos.php(502): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', '/home/tegnex/public_html/app/Controllers/Productos.php', 502)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->getProductosAdmin()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 17:46:09 --> Undefined array key "producto_descripcion"
+in APPPATH/Views/admin/productos.php on line 348.
+ 1 APPPATH/Views/admin/productos.php(348): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "producto_descripcion"', '/home/tegnex/public_html/app/Views/admin/productos.php', 348)
+ 2 SYSTEMPATH/View/View.php(224): include('/home/tegnex/public_html/app/Views/admin/productos.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('admin/productos', [], true)
+ 5 APPPATH/Controllers/Productos.php(41): view('admin/productos', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

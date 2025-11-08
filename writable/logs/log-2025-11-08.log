@@ -1,0 +1,28 @@
+CRITICAL - 2025-11-08 15:12:42 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\Productos.php on line 655.
+ 1 APPPATH\Controllers\Productos.php(655): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp7_4\\htdocs\\tiendabariaestethic\\app\\Controllers\\Productos.php', 655, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Productos->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-11-08 15:14:43 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\Productos.php on line 655.
+ 1 APPPATH\Controllers\Productos.php(655): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp7_4\\htdocs\\tiendabariaestethic\\app\\Controllers\\Productos.php', 655, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Productos->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-11-08 15:30:10 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\Productos.php on line 655.
+ 1 APPPATH\Controllers\Productos.php(655): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp7_4\\htdocs\\tiendabariaestethic\\app\\Controllers\\Productos.php', 655, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Productos->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-11-08 15:38:42 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\Productos.php on line 655.
+ 1 APPPATH\Controllers\Productos.php(655): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp7_4\\htdocs\\tiendabariaestethic\\app\\Controllers\\Productos.php', 655, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Productos->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

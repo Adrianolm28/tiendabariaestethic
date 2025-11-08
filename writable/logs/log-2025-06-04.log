@@ -1,0 +1,11 @@
+CRITICAL - 2025-06-04 02:15:15 --> Undefined array key "nombre"
+in APPPATH/Views/tienda/clientecompra.php on line 216.
+ 1 APPPATH/Views/tienda/clientecompra.php(216): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/tegnex/public_html/app/Views/tienda/clientecompra.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Clientecompra.php(64): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Clientecompra->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,229 @@
+CRITICAL - 2025-07-18 15:28:53 --> syntax error, unexpected '<', expecting end of file
+in APPPATH/Views/tienda/index.php on line 37.
+ 1 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Tienda.php(125): view()
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Tienda->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 15:58:31 --> Undefined array key "nombre"
+in APPPATH/Controllers/Tienda.php on line 199.
+ 1 APPPATH/Controllers/Tienda.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', '/home/tegnex/public_html/app/Controllers/Tienda.php', 199)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Tienda->verproducto('25')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 16:14:47 --> Undefined array key "nombre"
+in APPPATH/Controllers/Tienda.php on line 199.
+ 1 APPPATH/Controllers/Tienda.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', '/home/tegnex/public_html/app/Controllers/Tienda.php', 199)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Tienda->verproducto('25')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 16:15:02 --> Undefined array key "nombre"
+in APPPATH/Controllers/Tienda.php on line 199.
+ 1 APPPATH/Controllers/Tienda.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', '/home/tegnex/public_html/app/Controllers/Tienda.php', 199)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Tienda->verproducto('25')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 16:17:17 --> Class "App\Models\AnuncioTiendaModel" not found
+in APPPATH/Controllers/Tienda.php on line 72.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Tienda->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 16:17:19 --> Class "App\Models\AnuncioTiendaModel" not found
+in APPPATH/Controllers/Tienda.php on line 72.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Tienda->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 16:17:21 --> Class "App\Models\AnuncioTiendaModel" not found
+in APPPATH/Controllers/Tienda.php on line 72.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Tienda->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 16:21:08 --> Undefined array key "nombre"
+in APPPATH/Controllers/Tienda.php on line 199.
+ 1 APPPATH/Controllers/Tienda.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', '/home/tegnex/public_html/app/Controllers/Tienda.php', 199)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Tienda->verproducto('25')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 16:21:20 --> Undefined array key "nombre"
+in APPPATH/Controllers/Tienda.php on line 199.
+ 1 APPPATH/Controllers/Tienda.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', '/home/tegnex/public_html/app/Controllers/Tienda.php', 199)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Tienda->verproducto('25')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 16:21:26 --> Undefined array key "nombre"
+in APPPATH/Controllers/Tienda.php on line 199.
+ 1 APPPATH/Controllers/Tienda.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', '/home/tegnex/public_html/app/Controllers/Tienda.php', 199)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Tienda->verproducto('25')
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 16:22:10 --> Undefined array key "categoria"
+in APPPATH/Views/tienda/verproducto.php on line 47.
+ 1 APPPATH/Views/tienda/verproducto.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categoria"', '/home/tegnex/public_html/app/Views/tienda/verproducto.php', 47)
+ 2 SYSTEMPATH/View/View.php(224): include('/home/tegnex/public_html/app/Views/tienda/verproducto.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('tienda/verproducto', [], true)
+ 5 APPPATH/Controllers/Tienda.php(215): view('tienda/verproducto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Tienda->verproducto('25')
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 16:29:03 --> Undefined array key "categoria"
+in APPPATH/Views/tienda/verproducto.php on line 47.
+ 1 APPPATH/Views/tienda/verproducto.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categoria"', '/home/tegnex/public_html/app/Views/tienda/verproducto.php', 47)
+ 2 SYSTEMPATH/View/View.php(224): include('/home/tegnex/public_html/app/Views/tienda/verproducto.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('tienda/verproducto', [], true)
+ 5 APPPATH/Controllers/Tienda.php(215): view('tienda/verproducto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Tienda->verproducto('25')
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 17:48:29 --> Undefined array key "empresa_correo"
+in APPPATH/Views/admin/empresa.php on line 35.
+ 1 APPPATH/Views/admin/empresa.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "empresa_correo"', '/home/tegnex/public_html/app/Views/admin/empresa.php', 35)
+ 2 SYSTEMPATH/View/View.php(224): include('/home/tegnex/public_html/app/Views/admin/empresa.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('admin/empresa', [], true)
+ 5 APPPATH/Controllers/Empresa.php(23): view('admin/empresa', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Empresa->empresa()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresa))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 17:54:30 --> Undefined array key "empresa_correo"
+in APPPATH/Views/admin/empresa.php on line 35.
+ 1 APPPATH/Views/admin/empresa.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "empresa_correo"', '/home/tegnex/public_html/app/Views/admin/empresa.php', 35)
+ 2 SYSTEMPATH/View/View.php(224): include('/home/tegnex/public_html/app/Views/admin/empresa.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('admin/empresa', [], true)
+ 5 APPPATH/Controllers/Empresa.php(23): view('admin/empresa', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Empresa->empresa()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresa))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 18:38:33 --> Undefined variable $logo
+in APPPATH/Controllers/Empresa.php on line 47.
+ 1 APPPATH/Controllers/Empresa.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $logo', '/home/tegnex/public_html/app/Controllers/Empresa.php', 47)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Empresa->store()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresa))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 18:40:37 --> Unmatched '}'
+in APPPATH/Controllers/Empresa.php on line 87.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/home/tegnex/public_html/app/Controllers/Empresa.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Empresa')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Empresa')
+ 4 SYSTEMPATH/CodeIgniter.php(890): class_exists('\\App\\Controllers\\Empresa', true)
+ 5 SYSTEMPATH/CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 18:40:41 --> Unmatched '}'
+in APPPATH/Controllers/Empresa.php on line 87.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/home/tegnex/public_html/app/Controllers/Empresa.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Empresa')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Empresa')
+ 4 SYSTEMPATH/CodeIgniter.php(890): class_exists('\\App\\Controllers\\Empresa', true)
+ 5 SYSTEMPATH/CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 18:59:08 --> Undefined variable $delivery
+in APPPATH/Controllers/Productos.php on line 252.
+ 1 APPPATH/Controllers/Productos.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $delivery', '/home/tegnex/public_html/app/Controllers/Productos.php', 252)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->filtrarPorSubcategoria()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 18:59:09 --> Undefined variable $delivery
+in APPPATH/Controllers/Productos.php on line 252.
+ 1 APPPATH/Controllers/Productos.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $delivery', '/home/tegnex/public_html/app/Controllers/Productos.php', 252)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->filtrarPorSubcategoria()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 18:59:22 --> Undefined variable $delivery
+in APPPATH/Controllers/Productos.php on line 252.
+ 1 APPPATH/Controllers/Productos.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $delivery', '/home/tegnex/public_html/app/Controllers/Productos.php', 252)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->filtrarPorSubcategoria()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 18:59:27 --> Undefined variable $delivery
+in APPPATH/Controllers/Productos.php on line 252.
+ 1 APPPATH/Controllers/Productos.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $delivery', '/home/tegnex/public_html/app/Controllers/Productos.php', 252)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->filtrarPorSubcategoria()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 18:59:27 --> Undefined variable $delivery
+in APPPATH/Controllers/Productos.php on line 252.
+ 1 APPPATH/Controllers/Productos.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $delivery', '/home/tegnex/public_html/app/Controllers/Productos.php', 252)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->filtrarPorSubcategoria()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 18:59:33 --> Undefined variable $delivery
+in APPPATH/Controllers/Productos.php on line 252.
+ 1 APPPATH/Controllers/Productos.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $delivery', '/home/tegnex/public_html/app/Controllers/Productos.php', 252)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->filtrarPorSubcategoria()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 18:59:34 --> Undefined variable $delivery
+in APPPATH/Controllers/Productos.php on line 252.
+ 1 APPPATH/Controllers/Productos.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $delivery', '/home/tegnex/public_html/app/Controllers/Productos.php', 252)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->filtrarPorSubcategoria()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 18:59:38 --> Undefined variable $delivery
+in APPPATH/Controllers/Productos.php on line 252.
+ 1 APPPATH/Controllers/Productos.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $delivery', '/home/tegnex/public_html/app/Controllers/Productos.php', 252)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->filtrarPorSubcategoria()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 18:59:38 --> Undefined variable $delivery
+in APPPATH/Controllers/Productos.php on line 252.
+ 1 APPPATH/Controllers/Productos.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $delivery', '/home/tegnex/public_html/app/Controllers/Productos.php', 252)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->filtrarPorSubcategoria()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 18:59:38 --> Undefined variable $delivery
+in APPPATH/Controllers/Productos.php on line 252.
+ 1 APPPATH/Controllers/Productos.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $delivery', '/home/tegnex/public_html/app/Controllers/Productos.php', 252)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->filtrarPorSubcategoria()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 18:59:51 --> Undefined variable $delivery
+in APPPATH/Controllers/Productos.php on line 252.
+ 1 APPPATH/Controllers/Productos.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $delivery', '/home/tegnex/public_html/app/Controllers/Productos.php', 252)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->filtrarPorSubcategoria()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 18:59:55 --> Undefined variable $delivery
+in APPPATH/Controllers/Productos.php on line 252.
+ 1 APPPATH/Controllers/Productos.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $delivery', '/home/tegnex/public_html/app/Controllers/Productos.php', 252)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->filtrarPorSubcategoria()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-18 19:00:00 --> Undefined variable $delivery
+in APPPATH/Controllers/Productos.php on line 252.
+ 1 APPPATH/Controllers/Productos.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $delivery', '/home/tegnex/public_html/app/Controllers/Productos.php', 252)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->filtrarPorSubcategoria()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

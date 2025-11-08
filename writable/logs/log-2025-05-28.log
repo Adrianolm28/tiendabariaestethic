@@ -1,0 +1,493 @@
+CRITICAL - 2025-05-28 16:01:03 --> Call to undefined method App\Models\MostVisitedModel::getMostVisitedPagesUnique
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(57): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisitedUnique()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 16:01:13 --> Call to undefined method App\Models\MostVisitedModel::getMostVisitedPagesUnique
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(57): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisitedUnique()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 16:01:38 --> Call to undefined method App\Models\MostVisitedModel::getMostVisitedPagesUnique
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(57): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisitedUnique()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 16:01:45 --> Call to undefined method App\Models\MostVisitedModel::getMostVisitedPagesUnique
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(57): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisitedUnique()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 16:05:33 --> Call to undefined method App\Models\MostVisitedModel::getMostVisitedPagesUnique
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(57): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisitedUnique()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 16:05:34 --> Call to undefined method App\Models\MostVisitedModel::getVisitsByDateRangeWithUnique
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(111): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->visitasDetalleAjax()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 16:05:38 --> Call to undefined method App\Models\MostVisitedModel::getMostVisitedPagesUnique
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(57): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisitedUnique()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 16:05:45 --> Call to undefined method App\Models\MostVisitedModel::getMostVisitedPagesUnique
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(57): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisitedUnique()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 16:07:08 --> Call to undefined method App\Models\MostVisitedModel::getMostVisitedPagesUnique
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(57): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisitedUnique()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 16:07:12 --> Call to undefined method App\Models\MostVisitedModel::getVisitsByDateRangeWithUnique
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(111): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->visitasDetalleAjax()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-05-28 16:08:35 --> mysqli_sql_exception: Unknown column 'ip_address' in 'SELECT' in /home/tegnex/public_html/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/tegnex/public_html/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/tegnex/public_html/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/tegnex/public_html/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/tegnex/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/tegnex/public_html/app/Models/MostVisitedModel.php(106): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/tegnex/public_html/app/Controllers/Dashboard.php(111): App\Models\MostVisitedModel->getVisitsByDateRangeWithUnique()
+#6 /home/tegnex/public_html/system/CodeIgniter.php(932): App\Controllers\Dashboard->visitasDetalleAjax()
+#7 /home/tegnex/public_html/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/tegnex/public_html/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/tegnex/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-05-28 16:08:35 --> Unknown column 'ip_address' in 'SELECT'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/MostVisitedModel.php(106): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Dashboard.php(111): App\Models\MostVisitedModel->getVisitsByDateRangeWithUnique()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->visitasDetalleAjax()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-05-28 16:08:40 --> mysqli_sql_exception: Unknown column 'ip_address' in 'SELECT' in /home/tegnex/public_html/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/tegnex/public_html/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/tegnex/public_html/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/tegnex/public_html/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/tegnex/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/tegnex/public_html/app/Models/MostVisitedModel.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/tegnex/public_html/app/Controllers/Dashboard.php(57): App\Models\MostVisitedModel->getMostVisitedPagesUnique()
+#6 /home/tegnex/public_html/system/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisitedUnique()
+#7 /home/tegnex/public_html/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/tegnex/public_html/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/tegnex/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-05-28 16:08:40 --> Unknown column 'ip_address' in 'SELECT'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/MostVisitedModel.php(81): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Dashboard.php(57): App\Models\MostVisitedModel->getMostVisitedPagesUnique()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisitedUnique()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:01:16 --> Class 'App\Models\MostVisitedModel' not found
+in APPPATH/Controllers/Dashboard.php on line 46.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisited()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:01:16 --> Class 'App\Models\MostVisitedModel' not found
+in APPPATH/Controllers/Dashboard.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisitedUnique()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:01:21 --> Class 'App\Models\MostVisitedModel' not found
+in APPPATH/Controllers/Dashboard.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisitedUnique()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:01:21 --> Class 'App\Models\MostVisitedModel' not found
+in APPPATH/Controllers/Dashboard.php on line 46.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisited()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:01:24 --> Class 'App\Models\MostVisitedModel' not found
+in APPPATH/Controllers/Dashboard.php on line 105.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->visitasDetalleAjax()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:01:57 --> Class 'App\Models\MostVisitedModel' not found
+in APPPATH/Controllers/Dashboard.php on line 105.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->visitasDetalleAjax()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:02:42 --> Class 'App\Models\MostVisitedModel' not found
+in APPPATH/Controllers/Dashboard.php on line 46.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisited()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:02:42 --> Class 'App\Models\MostVisitedModel' not found
+in APPPATH/Controllers/Dashboard.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisitedUnique()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:03:50 --> Class 'App\Models\MostVisitedModel' not found
+in APPPATH/Controllers/Dashboard.php on line 46.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisited()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:03:50 --> Class 'App\Models\MostVisitedModel' not found
+in APPPATH/Controllers/Dashboard.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisitedUnique()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:03:54 --> Class 'App\Models\MostVisitedModel' not found
+in APPPATH/Controllers/Dashboard.php on line 105.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->visitasDetalleAjax()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:04:00 --> Class 'App\Models\MostVisitedModel' not found
+in APPPATH/Controllers/Dashboard.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisitedUnique()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:04:00 --> Class 'App\Models\MostVisitedModel' not found
+in APPPATH/Controllers/Dashboard.php on line 46.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisited()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:05:09 --> Class 'App\Models\MostVisitedModel' not found
+in APPPATH/Controllers/Dashboard.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisitedUnique()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:05:09 --> Class 'App\Models\MostVisitedModel' not found
+in APPPATH/Controllers/Dashboard.php on line 46.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisited()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:05:11 --> Class 'App\Models\MostVisitedModel' not found
+in APPPATH/Controllers/Dashboard.php on line 105.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->visitasDetalleAjax()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:06:53 --> Class 'App\Models\MostVisitedModel' not found
+in APPPATH/Controllers/Dashboard.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisitedUnique()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:06:53 --> Class 'App\Models\MostVisitedModel' not found
+in APPPATH/Controllers/Dashboard.php on line 46.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisited()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:08:17 --> Class 'App\Models\MostVisitedModel' not found
+in APPPATH/Controllers/Dashboard.php on line 46.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisited()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:08:17 --> Class 'App\Models\MostVisitedModel' not found
+in APPPATH/Controllers/Dashboard.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisitedUnique()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:10:06 --> Class 'App\Models\MostVisitedModel' not found
+in APPPATH/Controllers/Dashboard.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisitedUnique()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:10:06 --> Class 'App\Models\MostVisitedModel' not found
+in APPPATH/Controllers/Dashboard.php on line 46.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisited()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:10:08 --> Class 'App\Models\MostVisitedModel' not found
+in APPPATH/Controllers/Dashboard.php on line 105.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->visitasDetalleAjax()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:11:49 --> Class "App\Models\MostVisitedModel" not found
+in APPPATH/Controllers/Dashboard.php on line 105.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->visitasDetalleAjax()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:12:25 --> Class "App\Models\MostVisitedModel" not found
+in APPPATH/Controllers/Dashboard.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisitedUnique()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:12:25 --> Class "App\Models\MostVisitedModel" not found
+in APPPATH/Controllers/Dashboard.php on line 46.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->mostVisited()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:12:26 --> Class "App\Models\MostVisitedModel" not found
+in APPPATH/Controllers/Dashboard.php on line 105.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->visitasDetalleAjax()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:14:20 --> Undefined variable $delivery
+in APPPATH/Controllers/Productos.php on line 252.
+ 1 APPPATH/Controllers/Productos.php(252): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->filtrarPorSubcategoria()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:14:20 --> Undefined variable $delivery
+in APPPATH/Controllers/Productos.php on line 252.
+ 1 APPPATH/Controllers/Productos.php(252): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->filtrarPorSubcategoria()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 17:14:23 --> Undefined variable $delivery
+in APPPATH/Controllers/Productos.php on line 252.
+ 1 APPPATH/Controllers/Productos.php(252): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->filtrarPorSubcategoria()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 18:43:59 --> Call to undefined method App\Models\ComprasModel::obtenerTotalGanancia
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(272): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->totalGanancia()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 18:44:05 --> Call to undefined method App\Models\ComprasModel::obtenerTotalGanancia
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(272): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->totalGanancia()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 18:44:09 --> Call to undefined method App\Models\ComprasModel::obtenerTotalGanancia
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(272): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->totalGanancia()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 18:44:14 --> Call to undefined method App\Models\ComprasModel::obtenerTotalGanancia
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(272): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->totalGanancia()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 18:44:18 --> Call to undefined method App\Models\ComprasModel::obtenerTotalGanancia
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(272): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->totalGanancia()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 14:26:38 --> Undefined array key "precio_transferencia"
+in APPPATH/Controllers/Checkout.php on line 1098.
+ 1 APPPATH/Controllers/Checkout.php(1098): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Checkout->guardarCompra()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 14:26:48 --> Undefined array key "precio_transferencia"
+in APPPATH/Controllers/Checkout.php on line 1098.
+ 1 APPPATH/Controllers/Checkout.php(1098): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Checkout->guardarCompra()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 15:15:18 --> Undefined array key "precio_transferencia"
+in APPPATH/Controllers/Checkout.php on line 1098.
+ 1 APPPATH/Controllers/Checkout.php(1098): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Checkout->guardarCompra()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 15:16:19 --> Undefined array key "precio_transferencia"
+in APPPATH/Controllers/Checkout.php on line 1098.
+ 1 APPPATH/Controllers/Checkout.php(1098): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Checkout->guardarCompra()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 15:25:24 --> Undefined array key "precio_transferencia"
+in APPPATH/Controllers/Checkout.php on line 1107.
+ 1 APPPATH/Controllers/Checkout.php(1107): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Checkout->guardarCompra()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 15:25:33 --> Undefined array key "precio_transferencia"
+in APPPATH/Controllers/Checkout.php on line 1107.
+ 1 APPPATH/Controllers/Checkout.php(1107): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Checkout->guardarCompra()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 15:32:49 --> Undefined array key "precio_transferencia"
+in APPPATH/Controllers/Checkout.php on line 1107.
+ 1 APPPATH/Controllers/Checkout.php(1107): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Checkout->guardarCompra()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 15:40:33 --> Undefined array key "precio_transferencia"
+in APPPATH/Controllers/Checkout.php on line 1107.
+ 1 APPPATH/Controllers/Checkout.php(1107): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Checkout->guardarCompra()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 15:43:18 --> Undefined array key "precio_transferencia"
+in APPPATH/Controllers/Checkout.php on line 1107.
+ 1 APPPATH/Controllers/Checkout.php(1107): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Checkout->guardarCompra()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 15:43:54 --> Undefined array key "precio_transferencia"
+in APPPATH/Controllers/Checkout.php on line 1107.
+ 1 APPPATH/Controllers/Checkout.php(1107): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Checkout->guardarCompra()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 15:51:22 --> Undefined array key "precio_transferencia"
+in APPPATH/Controllers/Checkout.php on line 1107.
+ 1 APPPATH/Controllers/Checkout.php(1107): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Checkout->guardarCompra()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 21:00:26 --> Undefined array key "nombre_cliente"
+in APPPATH/Views/index.php on line 277.
+ 1 APPPATH/Views/index.php(277): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/tegnex/public_html/app/Views/index.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(68): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 21:02:36 --> Undefined array key "nombre_cliente"
+in APPPATH/Views/index.php on line 277.
+ 1 APPPATH/Views/index.php(277): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/tegnex/public_html/app/Views/index.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(68): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 21:02:36 --> Undefined array key "nombre_cliente"
+in APPPATH/Views/index.php on line 277.
+ 1 APPPATH/Views/index.php(277): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/tegnex/public_html/app/Views/index.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(68): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 21:02:41 --> Undefined array key "nombre"
+in APPPATH/Views/index.php on line 277.
+ 1 APPPATH/Views/index.php(277): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/tegnex/public_html/app/Views/index.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(68): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 16:05:32 --> Undefined array key "precio_transferencia"
+in APPPATH/Controllers/Checkout.php on line 1107.
+ 1 APPPATH/Controllers/Checkout.php(1107): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Checkout->guardarCompra()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 16:05:40 --> Undefined array key "precio_transferencia"
+in APPPATH/Controllers/Checkout.php on line 1107.
+ 1 APPPATH/Controllers/Checkout.php(1107): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Checkout->guardarCompra()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 16:10:11 --> Undefined array key "precio_transferencia"
+in APPPATH/Controllers/Checkout.php on line 1107.
+ 1 APPPATH/Controllers/Checkout.php(1107): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Checkout->guardarCompra()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-05-28 21:19:58 --> Valores faltantes para la compra ID: 30. Provincia: , Distrito: 
+ERROR - 2025-05-28 21:20:00 --> Valores faltantes para la compra ID: 30. Provincia: , Distrito: 
+CRITICAL - 2025-05-28 22:06:07 --> Undefined array key 1
+in APPPATH/Views/admin/configuraciontienda.php on line 150.
+ 1 APPPATH/Views/admin/configuraciontienda.php(150): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/tegnex/public_html/app/Views/admin/configuraciontienda.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Configuraciontienda.php(25): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Configuraciontienda->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

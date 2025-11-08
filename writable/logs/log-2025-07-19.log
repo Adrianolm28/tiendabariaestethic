@@ -1,0 +1,31 @@
+CRITICAL - 2025-07-19 01:23:21 --> Undefined constant "php"
+in APPPATH/Views/tienda/index.php on line 1359.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('tienda/index', [], true)
+ 4 APPPATH/Controllers/Tienda.php(107): view('tienda/index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Tienda->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-19 01:24:05 --> Undefined constant "php"
+in APPPATH/Views/tienda/index.php on line 1359.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('tienda/index', [], true)
+ 4 APPPATH/Controllers/Tienda.php(107): view('tienda/index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Tienda->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-19 01:38:11 --> Undefined variable $proc
+in APPPATH/Views/tienda/index.php on line 567.
+ 1 APPPATH/Views/tienda/index.php(567): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proc', '/home/tegnex/public_html/app/Views/tienda/index.php', 567)
+ 2 SYSTEMPATH/View/View.php(224): include('/home/tegnex/public_html/app/Views/tienda/index.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('tienda/index', [], true)
+ 5 APPPATH/Controllers/Tienda.php(107): view('tienda/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Tienda->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

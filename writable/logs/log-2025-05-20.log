@@ -1,0 +1,21 @@
+CRITICAL - 2025-05-20 14:05:31 --> Undefined variable $delivery
+in APPPATH/Controllers/Productos.php on line 460.
+ 1 APPPATH/Controllers/Productos.php(460): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->getProductosConDescuento()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-20 15:09:46 --> Undefined variable $delivery
+in APPPATH/Controllers/Productos.php on line 460.
+ 1 APPPATH/Controllers/Productos.php(460): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->getProductosConDescuento()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-20 15:10:25 --> Undefined variable $delivery
+in APPPATH/Controllers/Productos.php on line 460.
+ 1 APPPATH/Controllers/Productos.php(460): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Productos->getProductosConDescuento()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

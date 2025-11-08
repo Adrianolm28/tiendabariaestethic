@@ -1,0 +1,93 @@
+CRITICAL - 2025-06-10 22:35:29 --> Call to undefined method App\Models\ProductoModel::getTotalStock
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(67): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->totalStock()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-10 22:35:49 --> Call to undefined method App\Models\ProductoModel::getTotalStock
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(67): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->totalStock()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-10 22:35:54 --> Call to undefined method App\Models\ProductoModel::getTotalStock
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(67): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->totalStock()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-10 22:36:06 --> Call to undefined method App\Models\ProductoModel::getTotalStock
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(67): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->totalStock()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-10 22:36:10 --> Call to undefined method App\Models\ProductoModel::getTotalStock
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(67): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->totalStock()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-10 22:36:11 --> Call to undefined method App\Models\ProductoModel::getTotalStock
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(67): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->totalStock()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-10 22:36:30 --> Call to undefined method App\Models\ProductoModel::getTotalStock
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(67): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->totalStock()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-10 22:38:43 --> Call to undefined method App\Models\ProductoModel::getTotalStock
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(67): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->totalStock()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-10 22:38:45 --> Call to undefined method App\Models\ProductoModel::getTotalStock
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(67): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->totalStock()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-10 22:39:13 --> Call to undefined method App\Models\ProductoModel::getTotalStock
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(67): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->totalStock()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-10 22:39:37 --> Call to undefined method App\Models\ProductoModel::getTotalStock
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(67): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->totalStock()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-06-10 22:39:48 --> Valores faltantes para la compra ID: 49. Provincia: , Distrito: 
+ERROR - 2025-06-10 22:39:54 --> Valores faltantes para la compra ID: 48. Provincia: , Distrito: 
+CRITICAL - 2025-06-10 22:40:06 --> Call to undefined method App\Models\ProductoModel::getTotalStock
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(67): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->totalStock()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-10 22:40:12 --> Call to undefined method App\Models\ProductoModel::getTotalStock
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Dashboard.php(67): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dashboard->totalStock()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
