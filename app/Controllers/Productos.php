@@ -249,7 +249,7 @@ class Productos extends BaseController
                 'stock' => $producto['stock'],
                 'estado' => $producto['estado'],
                 'producto_descuento' => $producto['producto_descuento'],
-                'delivery'=> $delivery['delivery'],
+                'delivery' => $delivery['delivery'],
                 'acciones' => '<button class="btn btn-primary">Editar</button>',
             ];
         }
@@ -459,7 +459,7 @@ class Productos extends BaseController
                 'estado' => $producto['estado'],
                 'id_subcategoria' => $producto['id_subcategoria'],
                 'producto_descuento' => $producto['producto_descuento'],
-                'delivery'=> $delivery['delivery'],
+                'delivery' => $delivery['delivery'],
                 'acciones' => '<button class="btn btn-primary">Editar</button>',
             ];
         }
@@ -507,7 +507,7 @@ class Productos extends BaseController
                 'producto_video' => isset($producto['producto_video']) ? $producto['producto_video'] : null,
                 'id_subcategoria' => $producto['id_subcategoria'] ?? null,
                 'descuento_transferencia' => $producto['descuento_transferencia'] ?? '',
-                'delivery'=> $producto['delivery'] ?? '',
+                'delivery' => $producto['delivery'] ?? '',
                 'acciones' => '<button class="btn btn-primary">Editar</button>',
             ];
         }
@@ -558,9 +558,6 @@ class Productos extends BaseController
         return $imagenesHTML;
     }
 
-
-
-
     public function store()
     {
         helper(['form', 'url']);
@@ -569,10 +566,10 @@ class Productos extends BaseController
         $imagenesModel = new ImagenesProductoModel();
 
         if ($this->request->getPost()) {
-            // DEBUG: Verifica los archivos recibidos
-            
 
-            $producto_video = $this->request->getPost('producto_video'); // <-- Asegúrate de tener esta línea
+            $archivo = $this->request->getFiles('file');
+            $producto_video = $this->request->getPost('producto_video');
+            $pdfFile = $this->request->getFile('manual_pdf');
 
 
             $precio_anterior = $this->request->getPost('precio_anterior');
@@ -611,14 +608,12 @@ class Productos extends BaseController
 
 
                     $archivoPDF = $this->request->getFile('manual_pdf');
-                    $newPdfName = '';
-                    if ($archivoPDF && $archivoPDF->isValid() && !$archivoPDF->hasMoved()) {
+                    if ($archivoPDF->isValid() && !$archivoPDF->hasMoved()) {
                         $newPdfName = $archivoPDF->getRandomName();
-                        $archivoPDF->move(ROOTPATH . 'public/assets/tienda/manuales/', $newPdfName);
-                        $manual_pdf = 'public/assets/tienda/manuales/' . $newPdfName;
-                    } else {
-                        $manual_pdf = '';
+
+                        $archivoPDF->move(ROOTPATH . 'public/assets/tienda/manuales/' . $newPdfName);
                     }
+
 
 
                     $data = [
@@ -635,7 +630,7 @@ class Productos extends BaseController
                         'id_subcategoria' => $this->request->getPost('subcategoria_producto'),
                         'imagen_producto' =>  'default.webp',
                         'producto_video' => $producto_video,
-                        'manual_pdf' => $manual_pdf,
+                        'manual_pdf' => $archivoPDF,
                         'producto_descuento' => $producto_descuento,
                         'stock' => $this->request->getPost('stock'),
                         'costo_producto' => $this->request->getPost('costo_producto'),
@@ -644,11 +639,7 @@ class Productos extends BaseController
 
                     ];
 
-                    
-
                     $save = $model->insert_data($data);
-
-                    
 
                     if ($save != false) {
                         // Insertar las imágenes adicionales en la tabla imagenes_producto
@@ -676,8 +667,11 @@ class Productos extends BaseController
 
                         if ($apiResult['response'] === 'success') {
                             $apiId = $apiResult['id'];
+
                             $data = $model->where('id_producto', $save)->first();
                             echo json_encode(array("status" => true, 'data' => $data, 'apiResponse' => $apiResult));
+
+
                             $model->update($save, ['id_sistema' => $apiId]);
                         } else {
                             echo json_encode(array("status" => false, 'message' => 'Producto guardado, pero hubo un error en la API', 'apiResponse' => $apiResult));
@@ -714,40 +708,45 @@ class Productos extends BaseController
                         'producto_video'  => !empty($producto_video) ? $producto_video : null,
                         'costo_producto' => $this->request->getPost('costo_producto'),
                         'stock' => $this->request->getPost('stock'),
-                        'delivery'=> $this->request->getpost('delivery')
+                        'delivery' => $this->request->getpost('delivery')
                     ];
 
 
 
                     $pdfFile = $this->request->getFile('manual_pdf');
-                    
+
+                    if ($pdfFile->isValid() && !$pdfFile->hasMoved()) {
+                        $newPdfName = $pdfFile->getRandomName();
+                        $pdfFile->move(ROOTPATH . 'public/assets/tienda/manuales/', $newPdfName);
+
+                        $data['manual_pdf'] = 'public/assets/tienda/manuales/' . $newPdfName;
+                    }
 
 
                     // Actualiza la información principal del producto
                     if ($model->update($id, $data)) {
-                        $updatedData = $model->where('id_producto', $id)->first();
-
-                        // Guardar imágenes nuevas si se subieron en edición
-                        if (!empty($archivo['file'])) {
-                            foreach ($archivo['file'] as $indice => $imagen) {
-                                if ($imagen->isValid() && !$imagen->hasMoved()) {
-                                    $rutaDestino = ROOTPATH . 'public/assets/img_tienda/productos';
-                                    $rutaWebP = $this->convertirAWebP($imagen, $rutaDestino);
-                                    if ($rutaWebP) {
-                                        $nombreArchivoWebP = pathinfo($rutaWebP, PATHINFO_BASENAME);
-                                        $datosImagen = [
-                                            'id_producto' => $id,
-                                            'nombre_archivo' => $nombreArchivoWebP,
-                                            'orden' => $indice + 1,
-                                            'estado' => 'activo'
-                                        ];
-                                        $imagenesModel->insert($datosImagen);
-                                        unlink($imagen->getRealPath());
-                                    }
-                                }
+                        // Inserta o actualiza las imágenes adicionales en la tabla imagenes_producto
+                        foreach ($archivo['file'] as $indice => $imagen) {
+                            // Procesar y guardar la imagen (similar a la lógica para crear una nueva imagen)
+                            $rutaDestino = ROOTPATH . 'public/assets/img_tienda/productos';
+                            $rutaWebP = $this->convertirAWebP($imagen, $rutaDestino);
+                            if ($rutaWebP) {
+                                $nombreArchivoWebP = pathinfo($rutaWebP, PATHINFO_BASENAME);
+                                $datosImagen = [
+                                    'id_producto' => $id,
+                                    'nombre_archivo' => $nombreArchivoWebP,
+                                    'orden' => $indice + 1,
+                                    'estado' => 'activo'
+                                ];
+                                $imagenesModel->insert($datosImagen);
+                                unlink($imagen->getRealPath()); // Eliminar la imagen original después de la conversión
                             }
                         }
 
+                        /*  $apiResponse = $this->enviarProductoAApi($data);
+                        $apiResult = json_decode($apiResponse, true); */
+                        // Devuelve una respuesta exitosa
+                        $updatedData = $model->where('id_producto', $id)->first();
                         echo json_encode(array("status" => true, 'data' => $updatedData));
                     } else {
                         echo json_encode(array("status" => false, 'message' => 'Error al actualizar'));
@@ -759,8 +758,6 @@ class Productos extends BaseController
             }
         }
     }
-
-
     public function convertirAWebP($imagen, $rutaDestino)
     {
         // Verificar si la imagen es válida y no se ha movido
@@ -976,7 +973,7 @@ class Productos extends BaseController
         return $this->response->setJSON($productosFiltrados);
     }
 
-    
+
 
     public function filtrarPorMarca()
     {
@@ -1179,8 +1176,8 @@ class Productos extends BaseController
         }
     }
 
-    
-    
+
+
     public function eliminar($id = null)
     {
         $model = new ProductoModel();
