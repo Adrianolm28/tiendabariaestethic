@@ -302,8 +302,7 @@
 
 <!--IMAGEN PUBLICITARIO-->
 
-<div class="imagen_profesional">
-</div>
+
 
 
 
@@ -518,10 +517,7 @@
     <div class="swiper-wrapper">
         <div class="swiper-slide">
            
-            <div class="anuncio2">
-                <img src="<?= base_url('public/assets/tienda/img/anuncio2.webp')  ?>" alt="Imagen de anuncio"
-                    width="100%" height="auto">
-            </div>
+            
         </div>
     </div>
 </div>
@@ -617,7 +613,7 @@
             <!-- section title -->
             <div class="col-md-12">
                 <div class="section-title">
-                    <h3 class="title">Nuestras Marcas</h3>
+                    
 
                 </div>
             </div>
@@ -763,180 +759,6 @@
 <!-- /SECTION -->
 
 <!-- SECTION -->
-<div class="section">
-    <!-- container -->
-    <div class="container">
-        <!-- row -->
-        <div class="row" id="mas-vendidos">
-            <div class="col-md-4 col-xs-6">
-                <div class="section-title">
-                    <h4 class="title">MÃ¡s vendidos Categoria</h4>
-                    <div class="section-nav">
-                        <div id="slick-nav-3" class="products-slick-nav"></div>
-                    </div>
-                </div>
-
-                <div class="products-widget-slick" data-nav="#slick-nav-3">
-                    <div>
-                        <!-- product widget -->
-                        <?php foreach ($productosCat as $producto) : ?>
-                            <div class="product-widget">
-                                <div class="product-img">
-                                    <img src="<?= base_url('public/assets/img_tienda/productos/' . $producto['imagen_producto']) ?>"
-                                        alt="<?= htmlspecialchars($producto['nombre']) ?>" width="60" height="60">
-
-                                </div>
-                                <div class=" product-body">
-                                    <p class="product-category"><?= esc($producto['nombre']) ?></p>
-                                    <h3 class="product-name"><a
-                                            href="<?= base_url('tienda/verproducto/') . $producto['id_producto'] ?>"><?= esc($producto['nombre']) ?></a>
-                                    </h3>
-                                    <h4 class="product-price">S/.<?= number_format($producto['precio'], 2) ?> <del
-                                            class="product-old-price">S/.<?= number_format($producto['precio_anterior'], 2) ?></del>
-                                    </h4>
-                                </div>
-                            </div>
-                        <?php endforeach; ?>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col-md-4 col-xs-6">
-                <div class="section-title">
-                    <h4 class="title">MÃ¡s vendidos Marca</h4>
-                    <div class="section-nav">
-                        <div id="slick-nav-4" class="products-slick-nav"></div>
-                    </div>
-                </div>
-
-                <div class="products-widget-slick" data-nav="#slick-nav-4">
-                    <div>
-                        <!-- product widget -->
-                        <?php foreach ($productosMar as $producto) : ?>
-                            <!-- product widget -->
-                            <div class="product-widget">
-                                <div class="product-img">
-                                    <img src="<?= base_url('public/assets/img_tienda/productos/' . $producto['imagen_producto']) ?>"
-                                        alt="<?= htmlspecialchars($producto['nombre']) ?>" width="60" height="60">
-                                </div>
-                                <div class=" product-body">
-                                    <p class="product-category"><?= esc($producto['nombre']) ?></p>
-                                    <h3 class="product-name"><a
-                                            href="<?= base_url('tienda/verproducto/') . $producto['id_producto'] ?>"><?= esc($producto['nombre']) ?></a>
-                                    </h3>
-                                    <h4 class="product-price">S/.<?= number_format($producto['precio'], 2) ?> <del
-                                            class="product-old-price">S/.<?= number_format($producto['precio_anterior'], 2) ?></del>
-                                    </h4>
-                                </div>
-                            </div>
-                            <!-- /product widget -->
-
-                        <?php endforeach; ?>
-                        <!-- /product widget -->
-
-                    </div>
-
-
-                </div>
-            </div>
-
-            <div class="clearfix visible-sm visible-xs"></div>
-
-            <div class="col-md-4 col-xs-6">
-                <div class="section-title">
-                    <h4 class="title">MÃ¡s vendidos Modelo</h4>
-                    <div class="section-nav">
-                        <div id="slick-nav-5" class="products-slick-nav"></div>
-                    </div>
-                </div>
-
-                <div class="products-widget-slick" data-nav="#slick-nav-5">
-                    <div>
-                        <!-- product widget -->
-                        <?php foreach ($productosMod as $producto) : ?>
-                            <!-- product widget -->
-                            <div class="product-widget">
-                                <div class="product-img">
-                                    <img src="<?= base_url('public/assets/img_tienda/productos/' . $producto['imagen_producto']) ?>"
-                                        alt="<?= htmlspecialchars($producto['nombre']) ?>" width="60" height="60">
-                                </div>
-                                <div class=" product-body">
-                                    <p class="product-category"><?= esc($producto['nombre']) ?></p>
-                                    <h3 class="product-name"><a
-                                            href="<?= base_url('tienda/verproducto/') . $producto['id_producto'] ?>"><?= esc($producto['nombre']) ?></a>
-                                    </h3>
-                                    <h4 class="product-price">S/.<?= number_format($producto['precio'], 2) ?> <del
-                                            class="product-old-price">S/.<?= number_format($producto['precio_anterior'], 2) ?></del>
-                                    </h4>
-                                </div>
-                            </div>
-                            <!-- /product widget -->
-
-                        <?php endforeach; ?>
-
-                    </div>
-
-
-                </div>
-            </div>
-
-        </div>
-        <!-- /row -->
-    </div>
-    <!-- /container -->
-</div>
-<!-- /SECTION -->
-<!-- FIN  NUESTRAS MARCAS PC-->
-
-<!-- productos vendidos celular -->
-<div class="container-mas-vendidos">
-    <div class="categoria-vendida">
-        <h4 class="title2">MÃ¡s vendidos Categoria</h4>
-        <!-- product widget -->
-        <?php foreach ($productosCat as $producto) : ?>
-            <div class="product-widget">
-                <div class="product-img">
-                    <img src="<?= base_url('public/assets/img_tienda/productos/' . $producto['imagen_producto']) ?>"
-                        alt="<?= htmlspecialchars($producto['nombre']) ?>" width="60" height="60">
-
-                </div>
-                <div class=" product-body">
-                    <p class="product-category"><?= esc($producto['nombre']) ?></p>
-                    <h3 class="product-name"><a
-                            href="<?= base_url('tienda/verproducto/') . $producto['id_producto'] ?>"><?= esc($producto['nombre']) ?></a>
-                    </h3>
-                    <h4 class="product-price">S/.<?= number_format($producto['precio'], 2) ?> <del
-                            class="product-old-price">S/.<?= number_format($producto['precio_anterior'], 2) ?></del></h4>
-                </div>
-            </div>
-        <?php endforeach; ?>
-    </div>
-
-    <div class="marca-vendida">
-        <h4 class="title2">MÃ¡s vendidos Categoria</h4>
-        <?php foreach ($productosMar as $producto) : ?>
-            <!-- product widget -->
-            <div class="product-widget">
-                <div class="product-img">
-                    <img src="<?= base_url('public/assets/img_tienda/productos/' . $producto['imagen_producto']) ?>"
-                        alt="<?= htmlspecialchars($producto['nombre']) ?>" width="60" height="60">
-                </div>
-                <div class=" product-body">
-                    <p class="product-category"><?= esc($producto['nombre']) ?></p>
-                    <h3 class="product-name"><a
-                            href="<?= base_url('tienda/verproducto/') . $producto['id_producto'] ?>"><?= esc($producto['nombre']) ?></a>
-                    </h3>
-                    <h4 class="product-price">S/.<?= number_format($producto['precio'], 2) ?> <del
-                            class="product-old-price">S/.<?= number_format($producto['precio_anterior'], 2) ?></del></h4>
-                </div>
-            </div>
-            <!-- /product widget -->
-
-        <?php endforeach; ?>
-
-    </div>
-</div>
 
 
 <!-- SUSCRIBETE PC-->
@@ -1022,12 +844,7 @@
 
 
 <!-- ANUNCIo mapa del peru -->
-<div class="swiper">
-    <div class="swiper-slide">
-       <img src="<?= base_url('public/assets/tienda/img/banner.jpg')  ?>" alt="Imagen de anuncio" width="1519"
-            height="165">
-    </div>
-</div>
+
 
 
 <script>

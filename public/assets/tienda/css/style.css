@@ -556,6 +556,7 @@ textarea.input {
   width: 90px;
   text-align: center;
   color: #fff;
+  margin-left: 90px;
 }
 
 .header-ctn > div > a > i {
@@ -2546,12 +2547,6 @@ textarea.input {
 }
 
 
-.imagen_profesional{
-  margin-top: 30px;
-   width: 100vw;
-   height: 250px;
-   background-color: #AB7843;
-}
 
 
 
@@ -2719,6 +2714,10 @@ textarea.input {
     float: none;
     text-align: center;
   }
+
+  .header-ctn > div > a {
+    margin-left: none;
+  }
   .header-logo .logo {
     display: inline-block;
   }
@@ -2739,6 +2738,9 @@ textarea.input {
 }
 
 @media only screen and (max-width: 767px) {
+  .header-ctn > div > a {
+    margin-left: none;
+  }
   .section-title .section-nav {
     float: none;
     margin-top: 10px;
@@ -2751,6 +2753,9 @@ textarea.input {
 @media only screen and (max-width: 480px) {
   [class*="col-xs"] {
     width: 100%;
+  }
+  .header-ctn > div > a {
+    margin-left: none;
   }
   .store-grid {
     float: none;
@@ -2776,9 +2781,15 @@ html {
 
 
 @media (min-width: 360px) and (max-width: 420px) {
+  .header-ctn > div > a {
+    margin-left: none;
+  }
+  
 .product .product-body .product-price {
   font-size: 18px!important;
 }
+
+
 
 .product-name{
   font-size: 10px!important;

@@ -13,7 +13,7 @@
     <meta name="author" content="Valeapp">
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">
-    <link rel="icon" href="<?= base_url('public/assets/tienda/img/favvale.ico') ?>" type="image/x-icon" />
+    <link rel="icon" href="<?= base_url('public/assets/tienda/img/iconb.png') ?>" type="image/x-icon" />
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
     <!-- Bootstrap -->
@@ -109,14 +109,14 @@
 
                             if (choice) {
                                 // El usuario eligió "OK", abrir WhatsApp
-                                window.open("https://wa.link/fryn84", "_blank");
+                                window.open("https://wa.me/51953959730", "_blank");
                             } else {
                                 // El usuario eligió "Cancelar", realizar la llamada telefónica
                                 window.open("tel:+51<?= $configTienda[0]['telefono'] ?>", "_blank");
                             }
                         } else {
                             // Si no es móvil, por defecto, abrir WhatsApp
-                            window.open("https://wa.link/fryn84", "_blank");
+                            window.open("https://wa.me/51953959730", "_blank");
                         }
                     }
 
@@ -129,7 +129,7 @@
 
                     <li><a href="mailto:<?= $configTienda[0]['correo'] ?>" target="_blank"><i
                                 class="fa fa-envelope-o"></i> <?= $configTienda[0]['correo'] ?></a></li>
-                    <li class="hide-on-mobile"><a href="https://maps.app.goo.gl/45cD8YELrgUQzeRJ9" target="_blank"><i
+                    <li class="hide-on-mobile"><a href="https://www.google.com/maps/place/Calle+930,+Magdalena+del+Mar+15076/@-12.0922915,-77.0591726,19z/data=!4m6!3m5!1s0x9105c9ab62f7b367:0x52d72a911112729f!8m2!3d-12.0922856!4d-77.0584323!16s%2Fg%2F11stx7jh0q?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D" target="_blank"><i
                                 class="fa fa-map-marker"></i><?= $configTienda[0]['direccion'] ?></a></li>
                 </ul>
                 <ul class="header-links pull-right">
@@ -180,8 +180,8 @@
                     <div class="col-md-3">
                         <div class="header-logo">
                             <a href="<?php echo base_url('/'); ?>" class="logo">
-                                <img style="width: 160px; height: 43px;     margin-top: 10px;"
-                                    src="<?= base_url('public/assets/tienda/img/logo-inner.png') ?>"
+                                <img style="width: 128px; height: 48px;     margin-top: 10px;"
+                                    src="<?= base_url('public/assets/tienda/img/logob.png') ?>"
                                     alt="Logo de Tienda Virtual">
 
                             </a>
@@ -444,7 +444,7 @@
                 <input type="text" placeholder="Escribir pregunta!" />
                 <i class="fa fa-play"></i>
             </div> -->
-            <div class="wcs_popup_input" data-number="51933696269"
+            <div class="wcs_popup_input" data-number="51953959730"
                 data-availability='{ "monday":"07:00-22:30", "tuesday":"07:00-22:30", "wednesday":"07:00-22:30", "thursday":"07:00-22:30", "friday":"07:00-22:30", "saturday":"09:00-18:30", "sunday":"09:00-22:30" }'>
                 <img src="<?= base_url('public/assets/whatsapp/plugin/components/image/ico_ventas.png') ?>"
                     alt="Imagen - Icono ventas" width="40" height="40" />

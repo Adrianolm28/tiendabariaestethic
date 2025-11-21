@@ -1,0 +1,43 @@
+ERROR - 2025-11-20 21:12:44 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'tegnex_valeapp_pagina' in C:\xampp7_4\htdocs\tiendabariaestethic\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp7_4\htdocs\tiendabariaestethic\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'tegnex_valeapp_...', 3306, '', 0)
+#1 C:\xampp7_4\htdocs\tiendabariaestethic\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp7_4\htdocs\tiendabariaestethic\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp7_4\htdocs\tiendabariaestethic\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vi...', Array, false)
+#4 C:\xampp7_4\htdocs\tiendabariaestethic\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp7_4\htdocs\tiendabariaestethic\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp7_4\htdocs\tiendabariaestethic\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp7_4\htdocs\tiendabariaestethic\app\Filters\VisitLogger.php(62): CodeIgniter\Model->insert(Array)
+#8 C:\xampp7_4\htdocs\tiendabariaestethic\system\Filters\Filters.php(173): App\Filters\VisitLogger->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#9 C:\xampp7_4\htdocs\tiendabariaestethic\system\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('tienda', 'before')
+#10 C:\xampp7_4\htdocs\tiendabariaestethic\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7_4\htdocs\tiendabariaestethic\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'tegnex_valeapp_pagina' in C:\xampp7_4\htdocs\tiendabariaestethic\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp7_4\htdocs\tiendabariaestethic\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp7_4\htdocs\tiendabariaestethic\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp7_4\htdocs\tiendabariaestethic\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vi...', Array, false)
+#3 C:\xampp7_4\htdocs\tiendabariaestethic\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp7_4\htdocs\tiendabariaestethic\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp7_4\htdocs\tiendabariaestethic\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\xampp7_4\htdocs\tiendabariaestethic\app\Filters\VisitLogger.php(62): CodeIgniter\Model->insert(Array)
+#7 C:\xampp7_4\htdocs\tiendabariaestethic\system\Filters\Filters.php(173): App\Filters\VisitLogger->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampp7_4\htdocs\tiendabariaestethic\system\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('tienda', 'before')
+#9 C:\xampp7_4\htdocs\tiendabariaestethic\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp7_4\htdocs\tiendabariaestethic\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-11-20 21:12:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'tegnex_valeapp_pagina'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `visits` (`page_name`, `visited_at`, `ip_address`, `user_agent`, `visitor_id`) VALUES (:page_name:, :visited_at:, :ip_address:, :user_agent:, :visitor_id:)', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Filters\VisitLogger.php(62): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\Filters\Filters.php(173): App\Filters\VisitLogger->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 8 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('tienda', 'before')
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

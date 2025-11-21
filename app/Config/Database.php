@@ -29,7 +29,7 @@ class Database extends Config
         'hostname' => 'localhost',
         'username' => 'root',
         'password' => '',
-        'database' => 'tegnex_valeapp_pagina',
+        'database' => 'tiendabarieaestethic',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,

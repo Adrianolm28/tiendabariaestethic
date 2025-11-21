@@ -40,7 +40,7 @@ span {
 
 .mejores {
   font-size: 60px;
-  color: #204f9d;
+  color: #AB7843;
   font-weight: bold;
   display: block;
   margin-bottom: -10px; /* Reduce el espacio entre "LOS MEJORES" y "PRECIOS" */
@@ -67,7 +67,7 @@ span {
 .rotated-text {
   font-size: 30px;
   text-transform: uppercase;
-  color: #004aad; /* Cambia si es necesario */
+  color: #AB7843; /* Cambia si es necesario */
   transform: rotate(-90deg); /* Rotar 90 grados hacia la izquierda */
   font-weight: bold;
   margin-left: 18px;
@@ -137,7 +137,7 @@ span {
 }
 
 .title_equipo_ventas{
-  color:#0c5ef4 ;
+  color:#AB7843 ;
   font-size: 50px;
   font-weight: bold;
 }
@@ -197,7 +197,7 @@ span {
 }
 
 .title_somos{
-  color:#0c5ef4 ;
+  color:#AB7843 ;
   font-size: 28px;
   font-weight: bold;
   text-align: center;
@@ -234,7 +234,7 @@ span {
 }
 
 .text_ico{
-  color:#0c5ef4 ;
+  color:#AB7843 ;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
@@ -533,7 +533,7 @@ h3 {
   transition: 0.5s;
 }
 .header-right-inner .icon i:hover {
-  color: #2662fa;
+  color: #AB7843;
 }
 .menu-bg {
   padding-top: 13px;
@@ -623,7 +623,7 @@ h3 {
   top: 62px;
   left: -75px;
   text-align: start;
-  border-top: 2px solid #2662fa;
+  border-top: 2px solid #AB7843;
   padding: 10px 20px;
 }
 .menu-bg .nav-main .menu ul li ul li {
@@ -644,11 +644,11 @@ h3 {
   left: 0;
   width: 0%;
   height: 1px;
-  background-color: #2662fa;
+  background-color: #AB7843;
   transition: all 0.3s ease-out 0s;
 }
 .menu-bg .nav-main .menu ul li a:hover {
-  color: #2662fa;
+  color: #AB7843;
 }
 .menu-bg .nav-main .menu ul li a:hover::after {
   width: 100%;
@@ -897,7 +897,7 @@ h3 {
   text-align: center;
   line-height: 59px;
   position: relative;
-  background-color: #2662fa;
+  background-color: #AB7843;
   border-radius: 8px;
   transition: all linear 0.5s;
 }
@@ -915,7 +915,7 @@ h3 {
   width: 24px;
 }
 .btn-style-1:hover {
-  background-color: #042f9c;
+  background-color: #AB7843;
   color: #fff;
 }
 .btn-style-1:hover:before {
@@ -1106,7 +1106,7 @@ h3 {
   right: 50px;
   height: 50px;
   width: 50px;
-  background-color: #2662fa;
+  background-color: #AB7843;
   color: #fff;
   text-align: center;
   line-height: 50px;

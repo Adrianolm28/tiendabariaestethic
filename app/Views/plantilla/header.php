@@ -5,20 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tegnex - Tienda Online</title>
+    <title>Tienda Bariaestethic</title>
     <base href="<?php echo base_url('public') ?>/">
 
     <!-- Metaetiquetas adicionales -->
-    <meta name="description" content="Tegnex - Tienda Online">
-    <meta name="keywords" content="Tegnex - Tienda Online">
+    <meta name="description" content="Tienda Bariaestethic">
+    <meta name="keywords" content="Tienda Bariaestethic">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Valeapp">
     <link rel="canonical" href="https://tegnex.pe/">
 
     <!-- Open Graph Metadata -->
-    <meta property="og:title" content="Tegnex - Tienda Online">
-    <meta property="og:description" content="Tegnex - Tienda Online!">
-    <meta property="og:image" content="https://valeapp.pe/assets/tienda/img/og-image.png"> <!-- Aseg¨²rate de que esta URL sea correcta -->
+    <meta property="og:title" content="Tienda Bariaestethic">
+    <meta property="og:description" content="Tienda Bariaestethic">
+    <meta property="og:image" content="https://valeapp.pe/assets/tienda/img/og-image.png"> <!-- Asegï¿½ï¿½rate de que esta URL sea correcta -->
     <meta property="og:url" content="https://tegnex.pe/">
 
     <!-- Font Awesome -->
@@ -101,7 +101,7 @@ $validation = \Config\Services::validation();
 
                         <div class="text">
                             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ventas@tegnex.pe" target="_blank">
-                                <p>ventas@tegnex.pe</p>
+                                <p>bariaestethic@mail.pe</p>
                             </a>
                         </div>
                     </div>
@@ -154,7 +154,7 @@ $validation = \Config\Services::validation();
                         <div class="nav-main">
                             <div class="menu-main">
                                 <div class="logo">
-                                    <a href="<?php echo base_url('/'); ?>"> <img src="./assets/image/others/logo/logotegnex.png" alt="Logo de Valeapp - Plataforma de Facturaci¨®n Electr¨®nica" class="logotegnex"></a>
+                                    <a href="<?php echo base_url('/'); ?>"> <img src="./assets/image/others/logo/logotegnex.png" alt="Logo de Valeapp - Plataforma de Facturaciï¿½ï¿½n Electrï¿½ï¿½nica" class="logotegnex"></a>
                                 </div>
 
 

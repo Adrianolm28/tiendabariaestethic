@@ -1,7 +1,7 @@
 <?php include("admin_header.php")  ?>
 
 <section class="content">
-   
+
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
@@ -155,13 +155,13 @@
                                     <tr>
                                         <td><?= $item['id']; ?></td>
                                         <td><img src="<?= base_url('public/assets/image/img_tienda/promocionesresponsive/' . $item['imagenbanner']); ?>" style="width:150px; height:90px;"></td>
-                                      
+
                                         <td>
                                             <?= $item['id_categorias'] ?>
                                         </td>
-                                        
 
-                                       
+
+
                                         <td>
                                             <?= $item['estado'] == 1 ?  '<span class="me-1 badge bg-success">Activo</span>' : '<span class="me-1 badge bg-danger">Inactivo</span>'; ?>
                                         </td>
@@ -211,12 +211,12 @@
             var form_data = new FormData(this);
             var form_action = $(this).attr('action');
             $.ajax({
-                data: form_data, 
-                url: form_action, 
-                type: 'POST', 
+                data: form_data,
+                url: form_action,
+                type: 'POST',
                 dataType: 'json',
-                processData: false, 
-                contentType: false, 
+                processData: false,
+                contentType: false,
                 success: function(res) {
                     if (res.status) {
                         Swal.fire({
@@ -259,10 +259,14 @@
                     if (res.status) {
                         $('#myModalEditar').modal('show');
                         $('#edit_id').val(res.data.id);
+
                         $('#edit_id_categorias').val(res.data.id_categorias).trigger('change');
-                        setTimeout(function() {
+
+                        setTimeout(function() { //parece q aqui viene el problema
                             $('#edit_id_subcategoria').val(res.data.id_subcategoria);
                         }, 300);
+
+
                         $('#edit_fecha_inicio').val(res.data.fecha_inicio);
                         $('#edit_fecha_fin').val(res.data.fecha_fin);
                         $('#edit_imagen_actual').val(res.data.imagenbanner);
@@ -291,46 +295,46 @@
 
         // Guardar edición
         $('#editPromocion').on('submit', function(event) {
-        event.preventDefault();
-        var form_data = new FormData(this);
-        var form_action = $(this).attr('action');
-        $.ajax({
-            data: form_data, 
-            url: form_action, 
-            type: 'POST', 
-            dataType: 'json',
-            processData: false, 
-            contentType: false, 
-            success: function(res) {
-                if (res.status) {
-                    Swal.fire({
-                        icon: 'success',
-                        title: 'Actualizado Exitosamente',
-                        showConfirmButton: false,
-                        timer: 1000
-                    }).then(() => {
-                        $("#myModalEditar").modal('hide');
-                        location.reload();
-                    });
-                } else {
+            event.preventDefault();
+            var form_data = new FormData(this);
+            var form_action = $(this).attr('action');
+            $.ajax({
+                data: form_data,
+                url: form_action,
+                type: 'POST',
+                dataType: 'json',
+                processData: false,
+                contentType: false,
+                success: function(res) {
+                    if (res.status) {
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Actualizado Exitosamente',
+                            showConfirmButton: false,
+                            timer: 1000
+                        }).then(() => {
+                            $("#myModalEditar").modal('hide');
+                            location.reload();
+                        });
+                    } else {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Error al Actualizar',
+                            text: 'Hubo un error al actualizar los datos.',
+                            confirmButtonColor: '#d33'
+                        });
+                    }
+                },
+                error: function(data) {
                     Swal.fire({
                         icon: 'error',
-                        title: 'Error al Actualizar',
-                        text: 'Hubo un error al actualizar los datos.',
+                        title: 'Error de Conexión',
+                        text: 'Hubo un problema al conectar con el servidor.',
                         confirmButtonColor: '#d33'
                     });
                 }
-            },
-            error: function(data) {
-                Swal.fire({
-                    icon: 'error',
-                    title: 'Error de Conexión',
-                    text: 'Hubo un problema al conectar con el servidor.',
-                    confirmButtonColor: '#d33'
-                });
-            }
+            });
         });
-    });
 
         /* funcion actualizar estado */
         $('body').on('click', '.btnDelete', function() {
@@ -353,11 +357,11 @@
                     type: 'POST',
                     dataType: 'json',
                     success: function(res) {
-                         location.reload(); 
+                        location.reload();
                         console.log(res)
-                         if (res.status) {
+                        if (res.status) {
 
-                            
+
 
                             if (newStatus == 1) {
                                 $(this).removeClass('btn-danger').addClass('btn-success').text('Activar');
@@ -366,7 +370,7 @@
                                 $(this).removeClass('btn-success').addClass('btn-danger').text('Desactivar');
                             }
 
-                          
+
 
 
                             Swal.fire({
@@ -382,20 +386,40 @@
                                 title: 'Error',
                                 text: 'No se pudo cambiar el estado del registro.'
                             });
-                        } 
+                        }
                     },
-                     error: function(data) {
+                    error: function(data) {
                         Swal.fire({
                             icon: 'error',
                             title: 'Error de Conexión',
                             text: 'Hubo un problema al conectar con el servidor.'
                         });
-                    } 
+                    }
                 });
             });
         });
 
-        
+        // Cargar subcategorías al cambiar categoría (agregar)
+        $('#id_categorias').change(function() {
+            var categoriaId = $(this).val();
+            $.ajax({
+                url: '<?php echo base_url('productos/obtenerSubcategorias'); ?>',
+                type: 'post',
+                dataType: 'json',
+                data: {
+                    categoria_id: categoriaId
+                },
+                success: function(response) {
+                    console.log('recibiendo ajax', response);
+                    $('#id_subcategoria').empty().append('<option value="">--Sub categorias--</option>');
+                    if (response.status) {
+                        $.each(response.data, function(key, value) {
+                            $('#id_subcategoria').append('<option value="' + value.id_subcategoria + '">' + value.nombre + '</option>');
+                        });
+                    }
+                }
+            });
+        });
         /* funcion eleminar */
         $('body').on('click', '.btnEliminarRegistro', function() {
             var id = $(this).data('id'); // Obtener el ID del registro a eliminar
@@ -415,7 +439,9 @@
                         url: '<?= site_url('admin/promocionesresponsive/eliminar/') ?>' + id, // Usa la URL correcta
                         type: 'POST', // Usa POST para enviar los datos
                         dataType: 'json',
-                        data: { "_method": "DELETE" }, // Incluye el método DELETE en los datos
+                        data: {
+                            "_method": "DELETE"
+                        }, // Incluye el método DELETE en los datos
                         success: function(res) {
                             if (res.status) {
                                 Swal.fire({
@@ -452,7 +478,6 @@
 
 
     });
-    
 </script>
 
 
